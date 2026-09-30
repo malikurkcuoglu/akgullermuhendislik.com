@@ -6,7 +6,7 @@ let counter = 1;
 let timer;
 
 const showSlide = (counter) => {
-  sliderContainer.style.backgroundImage = `url(../assets/slide/${counter}.jpg)`;
+  sliderContainer.style.backgroundImage = `url("../assets/slide/${counter}.jpg")`;
 };
 const changeSlide = (n) => {
   counter += n;
